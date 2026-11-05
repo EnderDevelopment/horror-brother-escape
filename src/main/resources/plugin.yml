@@ -1,0 +1,5 @@
+name: O Papel Debaixo da Cama
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Horror add-on resources (Bedrock packs live in the repo). Bukkit side keeps required modules functional.

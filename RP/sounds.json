@@ -1,0 +1,16 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "endernight:irmao": {
+        "volume": 1.0,
+        "pitch": [0.8, 1.0],
+        "events": {
+          "ambient": { "sound": "mob.ghast.moan" },
+          "hurt": { "sound": "mob.ghast.scream" },
+          "death": { "sound": "mob.ghast.death" },
+          "step": { "sound": "step.grass" }
+        }
+      }
+    }
+  }
+}

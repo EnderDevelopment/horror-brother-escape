@@ -1,0 +1,41 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.irmao.look_at_target": {
+      "loop": true,
+      "animation_length": 2.0,
+      "bones": {
+        "head": {
+          "rotation": [ { "time": 0.0, "rotation": [0, 0, 0] } ]
+        }
+      }
+    },
+    "animation.irmao.walk": {
+      "loop": true,
+      "animation_length": 0.6,
+      "bones": {
+        "left_leg": {
+          "rotation": [ { "time": 0.0, "rotation": [-25, 0, 0] }, { "time": 0.5, "rotation": [25, 0, 0] } ]
+        },
+        "right_leg": {
+          "rotation": [ { "time": 0.0, "rotation": [25, 0, 0] }, { "time": 0.5, "rotation": [-25, 0, 0] } ]
+        },
+        "left_arm": {
+          "rotation": [ { "time": 0.0, "rotation": [12, 0, 0] }, { "time": 0.5, "rotation": [-12, 0, 0] } ]
+        },
+        "right_arm": {
+          "rotation": [ { "time": 0.0, "rotation": [-12, 0, 0] }, { "time": 0.5, "rotation": [12, 0, 0] } ]
+        }
+      }
+    },
+    "animation.irmao.attack": {
+      "loop": false,
+      "animation_length": 0.4,
+      "bones": {
+        "right_arm": {
+          "rotation": [ { "time": 0.0, "rotation": [0, 0, 0] }, { "time": 0.2, "rotation": [-110, 0, 0] }, { "time": 0.4, "rotation": [0, 0, 0] } ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="crispEdges">
+  <!-- Parent NPC texture design reference (convert to PNG 64x64 for Bedrock) -->
+  <rect width="64" height="64" fill="#4a3a2a"/>
+  <!-- head -->
+  <rect x="0" y="0" width="32" height="32" fill="#e0c8a0"/>
+  <!-- eyes -->
+  <rect x="8" y="12" width="4" height="4" fill="#000000"/>
+  <rect x="20" y="12" width="4" height="4" fill="#000000"/>
+  <!-- mouth -->
+  <rect x="12" y="22" width="8" height="2" fill="#000000"/>
+  <!-- torso -->
+  <rect x="0" y="32" width="32" height="32" fill="#3a5a7a"/>
+  <!-- arms -->
+  <rect x="32" y="32" width="8" height="32" fill="#e0c8a0"/>
+  <rect x="56" y="32" width="8" height="32" fill="#e0c8a0"/>
+  <!-- legs -->
+  <rect x="8" y="56" width="8" height="8" fill="#202030"/>
+  <rect x="18" y="56" width="8" height="8" fill="#202030"/>
+</svg>

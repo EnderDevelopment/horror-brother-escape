@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "endernight:irmao",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/irmao" },
+      "geometry": { "default": "geometry.irmao" },
+      "scripts": {
+        "animate": [ "look_at_target", { "walk": "query.modified_move_speed > 0" } ]
+      },
+      "animations": {
+        "walk": "animation.irmao.walk",
+        "look_at_target": "animation.irmao.look_at_target",
+        "attack": "animation.irmao.attack"
+      },
+      "animation_controllers": [
+        { "base": "controller.animation.irmao.base" }
+      ],
+      "render_controllers": [ "controller.render.irmao" ],
+      "spawn_egg": {
+        "base_color": "#1a1a1a",
+        "overlay_color": "#7a1a1a"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "endernight:pai",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/pai" },
+      "geometry": { "default": "geometry.pai" },
+      "scripts": { "animate": [ "look_at_target" ] },
+      "animations": {
+        "look_at_target": "animation.irmao.look_at_target",
+        "walk": "animation.irmao.walk"
+      },
+      "render_controllers": [ "controller.render.irmao" ]
+    }
+  }
+}

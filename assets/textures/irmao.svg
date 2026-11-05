@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="crispEdges">
+  <!-- Brother entity texture design reference (convert to PNG 64x64 for Bedrock) -->
+  <rect width="64" height="64" fill="#1a1a1a"/>
+  <!-- head -->
+  <rect x="0" y="0" width="32" height="32" fill="#d8d0c0"/>
+  <!-- sinister face -->
+  <rect x="8" y="12" width="4" height="4" fill="#000000"/>
+  <rect x="20" y="12" width="4" height="4" fill="#000000"/>
+  <rect x="10" y="22" width="12" height="2" fill="#000000"/>
+  <!-- red eyes glow -->
+  <rect x="7" y="11" width="6" height="6" fill="#ff2222"/>
+  <rect x="19" y="11" width="6" height="6" fill="#ff2222"/>
+  <!-- torso -->
+  <rect x="0" y="32" width="32" height="32" fill="#3a2a2a"/>
+  <rect x="12" y="36" width="8" height="16" fill="#1a1a1a"/>
+  <!-- arms -->
+  <rect x="32" y="32" width="8" height="32" fill="#d8d0c0"/>
+  <rect x="56" y="32" width="8" height="32" fill="#d8d0c0"/>
+  <!-- legs -->
+  <rect x="8" y="56" width="8" height="8" fill="#202020"/>
+  <rect x="18" y="56" width="8" height="8" fill="#202020"/>
+</svg>
